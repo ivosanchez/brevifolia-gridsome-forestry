@@ -24,11 +24,11 @@ sections:
 - type: document
   path: src/assets/content/data/config.json
   label: Site Config
-upload_dir: src/assets/content/images
-public_path: "/src/assets/content/images"
+upload_dir: eyelites
+public_path: ''
 front_matter_path: ''
-use_front_matter_path: false
-file_template: ":filename:"
+use_front_matter_path: 
+file_template: ":filename/:filename:"
 build:
   preview_env:
   - GRAPHQL_ENDPOINT=/___graphql
